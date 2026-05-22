@@ -428,7 +428,7 @@
     position: relative; transition: border-color 0.3s;
   }
   .inv-photo:hover { border-color: rgba(224,92,26,0.35); }
-  .inv-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .inv-photo img { width: 100%; height: 100%; object-fit: contain; background: var(--dark-mid); display: block; }
   /* placeholder tiles when no real photo */
   .inv-photo.placeholder {
     background: linear-gradient(140deg, var(--dark-mid), var(--steel));
